@@ -591,8 +591,20 @@ html {
   margin-bottom: 2rem;
 }
 
+.mb-\[95px\]{
+  margin-bottom: 95px;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .mt-12{
   margin-top: 3rem;
+}
+
+.mt-16{
+  margin-top: 4rem;
 }
 
 .mt-20{
@@ -611,6 +623,10 @@ html {
   margin-top: 100px;
 }
 
+.mt-\[150px\]{
+  margin-top: 150px;
+}
+
 .block{
   display: block;
 }
@@ -627,6 +643,14 @@ html {
   height: 42px;
 }
 
+.h-\[48px\]{
+  height: 48px;
+}
+
+.w-\[212px\]{
+  width: 212px;
+}
+
 .w-\[370px\]{
   width: 370px;
 }
@@ -635,16 +659,8 @@ html {
   width: 42px;
 }
 
-.w-\[591px\]{
-  width: 591px;
-}
-
 .w-\[597px\]{
   width: 597px;
-}
-
-.w-\[676px\]{
-  width: 676px;
 }
 
 .w-\[699px\]{
@@ -655,20 +671,8 @@ html {
   width: 100%;
 }
 
-.w-\[\]{
-  width: ;
-}
-
-.w-\[670px\]{
-  width: 670px;
-}
-
 .max-w-6xl{
   max-width: 72rem;
-}
-
-.flex-row{
-  flex-direction: row;
 }
 
 .flex-col{
@@ -695,10 +699,6 @@ html {
   justify-content: space-between;
 }
 
-.gap-14{
-  gap: 3.5rem;
-}
-
 .gap-2{
   gap: 0.5rem;
 }
@@ -715,12 +715,24 @@ html {
   gap: 1.25rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .gap-7{
   gap: 1.75rem;
 }
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-\[54px\]{
+  gap: 54px;
+}
+
+.gap-\[60px\]{
+  gap: 60px;
 }
 
 .rounded-2xl{
@@ -772,9 +784,14 @@ html {
   padding: 1.25rem;
 }
 
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .px-7{
@@ -782,14 +799,9 @@ html {
   padding-right: 1.75rem;
 }
 
-.px-9{
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-}
-
-.px-\[51px\]{
-  padding-left: 51px;
-  padding-right: 51px;
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-4{
@@ -807,21 +819,6 @@ html {
   padding-bottom: 1.75rem;
 }
 
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .pl-10{
   padding-left: 2.5rem;
 }
@@ -834,29 +831,22 @@ html {
   padding-right: 1rem;
 }
 
-.pl-9{
-  padding-left: 2.25rem;
-}
-
 .text-center{
   text-align: center;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-\[20px\]{
   font-size: 20px;
-}
-
-.text-\[54px\]{
-  font-size: 54px;
-}
-
-.text-\[70px\]{
-  font-size: 70px;
 }
 
 .text-base{
@@ -874,32 +864,6 @@ html {
   line-height: 1.25rem;
 }
 
-.text-\[4px\]{
-  font-size: 4px;
-}
-
-.text-\[64px\]{
-  font-size: 64px;
-}
-
-.text-\[60px\]{
-  font-size: 60px;
-}
-
-.text-\[6px\]{
-  font-size: 6px;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .font-medium{
   font-weight: 500;
 }
@@ -908,12 +872,8 @@ html {
   font-weight: 600;
 }
 
-.leading-\[62px\]{
-  line-height: 62px;
-}
-
-.leading-\[80px\]{
-  line-height: 80px;
+.leading-\[22px\]{
+  line-height: 22px;
 }
 
 .leading-tight{
@@ -946,6 +906,10 @@ html {
 }
 
 @media (min-width: 1024px){
+  .lg\:mt-0{
+    margin-top: 0px;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -954,13 +918,16 @@ html {
     display: flex;
   }
 
+  .lg\:w-\[448px\]{
+    width: 448px;
+  }
+
   .lg\:flex-row{
     flex-direction: row;
   }
 
-  .lg\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .lg\:justify-center{
+    justify-content: center;
   }
 
   .lg\:px-0{
@@ -968,17 +935,45 @@ html {
     padding-right: 0px;
   }
 
+  .lg\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:px-\[51px\]{
+    padding-left: 51px;
+    padding-right: 51px;
+  }
+
+  .lg\:pl-10{
+    padding-left: 2.5rem;
+  }
+
+  .lg\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .lg\:text-\[54px\]{
+    font-size: 54px;
+  }
+
   .lg\:text-\[70px\]{
     font-size: 70px;
+  }
+
+  .lg\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[20px\]{
-    font-size: 20px;
   }
 
   .lg\:leading-\[80px\]{
